@@ -1,0 +1,35 @@
+<!doctype html>
+
+<head>
+    <title>GRACE JOYCE MUTHONI </title>
+
+</head>
+
+<body>
+    <H1>STUDENT RATINGS</H1>
+
+    <form method="post" action="grey.php">
+        <p align="right">date:<input type="date" id="date" name="date" required></p>
+        <p>name:<input type="text" id="idname" name="idname" required></p>
+        <p>reg no:<input type="text" id="reg" name="reg" required></p>
+        <p>course:<input type="text" id="course" name="course" required></p>
+        <p>year of study:<input type="text" id="yos" name="yos" required></p>
+        <br><br>
+        <p> gender<br>
+            <input type="radio" id="m" name="gender">Male
+            <input type="radio" id="f" name="gender">Female
+            <input type="radio" id="null" name="gender">Wish not to select
+        </p><br>
+        <select name="best" size="1">
+            <option value="cg">computer graphics</option>
+            <option value="wb">web development</option>
+            <option value="ca">computer architecture</option>
+            <option value="rm">research methodology</option>
+            <option value="ds">distributed systems</option>
+        </select>
+        <br><br>
+        <input type="reset" value="clear data">
+        <input type="submit" value="submit data">
+
+    </form>
+</body>
